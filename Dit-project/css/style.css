@@ -184,3 +184,24 @@ footer{
   justify-content: center;
   flex-direction: row;
 }
+
+@media only screen and (max-width: 768px) {
+  .button2 {
+    style display: none;
+  }
+  .button2 a {
+    style display: none;
+  }
+  .button2 button {
+    style display: none;
+  }
+  .button1 {
+    style display: none;
+  }
+  .button1 a {
+    style display: none;
+  }
+  .button1 button {
+    style display: none;
+  }
+}
